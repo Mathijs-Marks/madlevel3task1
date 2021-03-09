@@ -8,4 +8,5 @@
     <string name="rating_title">Rate the following game from 1 to 5 stars!</string>
     <string name="game_name">Shadow of the Tomb Raider</string>
     <string name="to_summary">To Summary</string>
+    <string name="to_start">Start over</string>
 </resources>

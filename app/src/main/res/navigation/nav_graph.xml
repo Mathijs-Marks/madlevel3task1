@@ -21,9 +21,6 @@
         <action
             android:id="@+id/action_ratingFragment_to_summaryFragment"
             app:destination="@id/summaryFragment" />
-        <action
-            android:id="@+id/action_ratingFragment_to_startFragment2"
-            app:destination="@id/startFragment" />
     </fragment>
     <fragment
         android:id="@+id/summaryFragment"
@@ -32,6 +29,8 @@
         tools:layout="@layout/fragment_summary" >
         <action
             android:id="@+id/action_summaryFragment_to_startFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/startFragment"
             app:destination="@id/startFragment" />
     </fragment>
 </navigation>
